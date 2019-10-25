@@ -1,9 +1,9 @@
-c2f9ed9ae2b807a337d7903d9fb9f5f4 *DESCRIPTION
+7bd88134ddbd7d27227cd250c40a0933 *DESCRIPTION
 3df5a808f943b052ba049be8c4990cec *NAMESPACE
 6a5756d672839dace4de07186024809b *R/bigparallelr-package.R
 765fd8d656d296c927f28b0de8ae75e7 *R/nb-cores.R
 41fa599d9c83d54ca1f28badc70a41e7 *R/reexport-parallel.R
-5d25fe2503d9f50b4ac6c7b4cd8b8c7c *R/register-parallel.R
+747cdc88182f16aa1732e0e399525cfd *R/register-parallel.R
 38af2cf9b61c19a2699ed17fae95d39e *R/split-parapply.R
 cb2d9259c1cd7be41e059cde4a02fb90 *R/split.R
 cad12395f4263cfbfb248d079ce668c7 *R/zzz.R
@@ -12,7 +12,7 @@ c29cd9dccb4db01d16d9d03a96dad981 *man/assert_cores.Rd
 d8519cedaebfb655215986798355e13c *man/bigparallelr-package.Rd
 f83f0947cccb7d612d8683c44b894538 *man/nb_cores.Rd
 35be1e3aff1a0f78101466b4ce90c329 *man/plus.Rd
-ebe0b211fc5b17a3a9603cb66c4c1ebf *man/reexports.Rd
+fc4b9705548f6926b5ad016ae0170b9e *man/reexports.Rd
 7fcf04827ffd34e00a0740a75226dc22 *man/register_parallel.Rd
 b3d9a43d8dffc3c97e2b64be484c02ee *man/seq-dim.Rd
 714de39d7204f6929a5c1a0fa3124266 *man/split_len.Rd
