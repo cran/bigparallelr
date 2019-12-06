@@ -12,15 +12,20 @@
 #' @export
 #'
 #' @examples
+#' \dontrun{
+#'
 #' test <- function(ncores) {
 #'   register_parallel(ncores)
 #'   foreach(i = 1:2) %dopar% i
 #' }
 #'
 #' test(2)  # only inside the function
-#' tryCatch(foreach(i = 1:2) %dopar% i, error = function(e) print(e))
+#' foreach(i = 1:2) %dopar% i
+#' }
 #'
 register_parallel <- function(ncores, ...) {
+
+  assert_cores(ncores)
 
   if (identical(parent.frame(), globalenv()))
     stop2("This function must be used inside another function.")
@@ -28,7 +33,8 @@ register_parallel <- function(ncores, ...) {
   if (ncores == 1) {
     foreach::registerDoSEQ()
   } else {
-    doParallel::registerDoParallel(cl <- parallel::makeCluster(ncores, ...))
+    cl <- parallel::makeCluster(ncores, ...)
+    doParallel::registerDoParallel(cl)
     # https://stackoverflow.com/a/20998531/6103040
     do.call("on.exit", list(substitute(parallel::stopCluster(cl)), add = TRUE),
             envir = parent.frame())

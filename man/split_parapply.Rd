@@ -4,8 +4,15 @@
 \alias{split_parapply}
 \title{Split-parApply-Combine}
 \usage{
-split_parapply(FUN, ind, ..., .combine = NULL, ncores = nb_cores(),
-  nb_split = ncores, opts_cluster = list())
+split_parapply(
+  FUN,
+  ind,
+  ...,
+  .combine = NULL,
+  ncores = nb_cores(),
+  nb_split = ncores,
+  opts_cluster = list()
+)
 }
 \arguments{
 \item{FUN}{The function to be applied to each subset matrix.}
@@ -42,10 +49,13 @@ This function splits indices in parts, then apply a given function to each
 part and finally combine the results.
 }
 \examples{
+\dontrun{
+
 str(
   split_parapply(function(ind) {
     sqrt(ind)
   }, ind = 1:10000, ncores = 2)
 )
+}
 
 }
