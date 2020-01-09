@@ -1,4 +1,4 @@
-6ac57b4b1e179bb2b9990157c977875e *DESCRIPTION
+e42b4e9fa667010e4352cc3e760ec144 *DESCRIPTION
 c0dddb3c5de6f4b43b518b31d84e5491 *NAMESPACE
 65fca68ed33a32c5c80f189cfcf65c4c *R/bigparallelr-package.R
 d473492a31cdcebdb5e846b3ffef1704 *R/nb-cores.R
@@ -6,7 +6,7 @@ d473492a31cdcebdb5e846b3ffef1704 *R/nb-cores.R
 dc8267c5b443de6ab3386a672fb3cef2 *R/register-parallel.R
 2cd917310c68b89c0af00487538f9379 *R/split-parapply.R
 9bbe0db6531e6063f90a036eea4b75a5 *R/split.R
-fe8515e630d443b5173f1f7930adda88 *R/zzz.R
+2a0ba090771fede15855bd698ca6c9e0 *R/zzz.R
 1d404d31af95bfd2944aa73817a0560e *README.md
 298cc0d43f54521b4ff0f13f142bb99e *man/assert_cores.Rd
 925badf4943705bf8dc2ee7a1ce28103 *man/bigparallelr-package.Rd
