@@ -1,6 +1,6 @@
 Package: bigparallelr
 Title: Easy Parallel Tools
-Version: 0.2.5
+Version: 0.3.0
 Authors@R: 
     person(given = "Florian",
            family = "Privé",
@@ -20,8 +20,8 @@ Suggests: testthat, covr
 URL: https://github.com/privefl/bigparallelr
 BugReports: https://github.com/privefl/bigparallelr/issues
 NeedsCompilation: no
-Packaged: 2020-08-24 06:56:22 UTC; au639593
+Packaged: 2020-11-03 20:29:15 UTC; au639593
 Author: Florian Privé [aut, cre]
 Maintainer: Florian Privé <florian.prive.21@gmail.com>
 Repository: CRAN
-Date/Publication: 2020-08-24 07:30:02 UTC
+Date/Publication: 2020-11-04 06:50:15 UTC
