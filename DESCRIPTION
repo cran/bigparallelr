@@ -1,6 +1,6 @@
 Package: bigparallelr
 Title: Easy Parallel Tools
-Version: 0.3.0
+Version: 0.3.1
 Authors@R: 
     person(given = "Florian",
            family = "Privé",
@@ -14,14 +14,14 @@ Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.1
 Imports: bigassertr (>= 0.1.1), doParallel, flock, parallel,
-        RhpcBLASctl
+        parallelly, RhpcBLASctl
 Depends: foreach
 Suggests: testthat, covr
 URL: https://github.com/privefl/bigparallelr
 BugReports: https://github.com/privefl/bigparallelr/issues
 NeedsCompilation: no
-Packaged: 2020-11-03 20:29:15 UTC; au639593
+Packaged: 2021-02-02 13:17:23 UTC; au639593
 Author: Florian Privé [aut, cre]
 Maintainer: Florian Privé <florian.prive.21@gmail.com>
 Repository: CRAN
-Date/Publication: 2020-11-04 06:50:15 UTC
+Date/Publication: 2021-02-02 13:40:02 UTC

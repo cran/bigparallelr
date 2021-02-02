@@ -1,7 +1,7 @@
-9deee55c377df3c5eb327271aa0cad6a *DESCRIPTION
+f0506123d2681056f6837b95bc25dbb6 *DESCRIPTION
 24164deec1e470237cf8f852bede3c46 *NAMESPACE
 8a5439969fe793a87a09826a28f830c5 *R/bigparallelr-package.R
-c4fdc64d4025e4afab11f207b95cfe03 *R/nb-cores.R
+a39f900e5e63da8067bfc937d479b826 *R/nb-cores.R
 3b415f6dada68859c5f9e551353359aa *R/reexport-parallel.R
 dc8267c5b443de6ab3386a672fb3cef2 *R/register-parallel.R
 63af0ae926f54f908573f36b66358a65 *R/split-parapply.R
